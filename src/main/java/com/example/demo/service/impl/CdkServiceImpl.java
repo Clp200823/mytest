@@ -1,10 +1,10 @@
-package com.example.demo.service;
+package com.example.demo.service.impl;
 
 import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import com.example.demo.db.wx.dao.CdkMapper;
 import com.example.demo.db.wx.entity.Cdk;
-import com.example.demo.service.impl.CdkService;
+import com.example.demo.service.CdkService;
 @Service
 public class CdkServiceImpl implements CdkService{
 
